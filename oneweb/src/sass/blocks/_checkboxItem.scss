@@ -1,0 +1,117 @@
+.checkboxl {
+    &__first{
+        img{
+            display: inline-block;
+            margin-top: -3px !important;
+            margin-right: 8px;
+        }
+        .about__text{
+            margin-top: 1px;
+        }
+    }
+    &__second{
+        img{
+            display: inline-block;
+            margin-top: -3px !important;
+            margin-right: 8px;
+        }
+        .about__text{
+            margin-top: 1px;
+
+    }
+}
+    &__third{
+        img{
+            display: inline-block;
+            margin-top: -5px !important;
+            margin-right: 8px;
+        }
+        .about__text{
+            margin-top: 0px;
+        }
+    }
+    &__forth{
+        img{
+            display: inline-block;
+            margin-top: -2px !important;
+            margin-right: 8px;
+        }
+        .about__text{
+            margin-top: 2px;
+        }
+    }
+}
+.checkboxr{
+    &__first{
+        img {
+            margin-top: -3px;
+            margin-right: 6px ;
+            
+        }
+    }
+    &__second{
+        img {
+            margin-top: -3px;
+            margin-right: 6px ;
+            
+        }
+    }
+    &__third{
+        img {
+            margin-top: 0px;
+            margin-right: 10px ;
+    
+        }
+    }
+    &__forth{
+        img {
+            margin-top: 4px;
+            margin-right: 10px ;
+    
+        }
+    }
+    &__fifth{
+        img {
+            margin-top: 2px;
+            margin-right: 10px ;
+    
+        }
+    }
+    &__sixth{
+        img {
+            margin-top: 2px;
+            margin-right: 10px ;
+    
+        }
+    }
+    &__seventh{
+        img {
+            margin-top: -6px;
+            margin-right: 8px ;
+        }
+    }
+    &__eigth{
+        img {
+            margin-top: -6px;
+            margin-right: 8px ;
+        }
+    }
+    &__ninth{
+        img {
+            margin-top: -1px;
+            margin-right: 7px ;
+        }
+        .about__text{
+            margin-top: 2px;
+        }
+    }
+    &__tenth{
+        img {
+            margin-top: 1px;
+            margin-right: 9px ;
+        }
+        .about__text{
+            margin-top: 0px;
+        }
+    }
+}

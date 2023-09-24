@@ -1,0 +1,245 @@
+@media (max-width: 1824px){
+    body{
+        padding: 70px 140px;
+    }
+    h1{
+        margin-left: 505px;
+    }
+    .header__logo{
+        padding-left: 25px;
+    }
+    .container{
+        padding-left: 75px;
+    }
+    .questionnaire__wrapper{
+        width: 1160px;
+    }
+    .questionnaire__about-name{
+        margin-right: 18px;
+        margin-left: 24px;
+    }
+    .questionnaire__about-text{
+        line-height: 29px;
+    }
+    .first {
+        width: 920px !important;
+        &::after{
+            top: 32px !important;
+        }
+    }
+    .second{
+        width: 912px !important;
+        line-height: 30px !important;
+        margin-top: 6px;
+        &::after{
+            top: 32px !important;
+        }
+    }
+    .third{
+        width: 865px;
+        line-height: 47px !important;
+        &::after{
+            top: 40px !important;
+        }
+    }
+    .forth{
+        width: 848px;
+        line-height: 12px !important;
+        margin-top: -10px;
+        &::after{
+            top: 25px !important;
+        }
+    }
+    .fifth {
+        width: 995px;
+        line-height: 39px !important;
+        &::after{
+            top: 37px !important;
+        }
+    }
+    .about .title {
+        padding-top: 5px;
+        margin-left: 24px;
+    }
+    .subtitle {
+        margin-bottom: 19px;
+        margin-left: 24px;
+    }
+    .about__left{
+        margin-right: 173px;
+        margin-top: 5px;
+    }
+    .about__right-info{
+        margin-top: 3px;
+    }
+
+    .about__left-info{
+        margin-left: 24px;
+    }
+    .range .title {
+        margin-left: 24px;
+    }
+    .subtitle {
+        margin-bottom: 18px;
+        margin-left: 25px;
+    }
+}
+@media (max-width: 1650px){
+    .header{
+        margin-bottom: 30px;
+    }
+    .container{
+        padding-left: 40px;
+    }
+
+    h1{
+        text-align: center;
+        margin: 0;
+        margin-bottom: 30px;
+    }
+    .about__wrapper {
+        justify-content: space-between;
+        padding: 0 30px;
+    }
+    .about__left{
+        margin-right: 0px !important;
+    }
+    .about__text{
+        font-size: 18px;
+    }
+    .subtitle{
+        span{
+            display: none;
+        }
+    }
+}
+@media (max-width: 1500px){
+    .first{
+        width: 720px !important;
+    }
+    .second{
+        width: 715px !important;
+    }
+    .third{
+        width: 674px;
+
+    }
+    .forth{
+        width: 656px;
+    }
+    .fifth {
+        width: 805px;
+    }
+}
+@media (max-width:1300px) {
+    h1{
+        font-size: 40px;
+    }
+    .questionnaire__wrapper{
+        width: 800px;
+        display: flex;
+        flex-direction: column;
+    }
+    .questionnaire__about{
+        display: flex;
+        flex-direction: column;
+        align-items: flex-start;
+    }
+    .questionnaire__about-name{
+        margin: 0;
+    }
+    .questionnaire__about-text{
+        width: 100% !important;
+        padding: 0;
+    }
+    .forth{
+        margin-top: 16px;
+    }
+    .about__wrapper{
+        flex-direction: column;
+    }
+    .about__left-info{
+        margin-left: 0px;
+        margin-bottom: 16px;
+    }
+}
+@media (max-width: 1150px){
+    body {
+        padding: 35px 70px;
+    }
+    h1{
+        margin-bottom: 10px;
+    }
+   .questionnaire__about-text{
+    font-size: 20px;
+    text-align: center;
+    &::after{
+        content: "";
+        width: 50%;
+        left: 0;
+        margin: 0 auto;
+    }
+   }
+   .questionnaire__about-name{
+    margin: 0 auto;
+   }
+
+    .questionnaire__wrapper{
+        width: auto;
+    }
+    .header {
+        margin-bottom: 20px;
+    }
+}
+@media (max-width: 768px){
+    body{
+        padding: 0 !important;
+    }
+    h1{
+        font-size: 25px;
+        margin-bottom: 0px;
+    }
+    .container{
+        padding: 10px 10px 0 10px;
+    }
+    .header{
+        margin-bottom: 10px;
+    }
+    .title{
+        font-size: 20px;
+    }
+    .questionnaire__about-text {
+        font-size: 16px;
+    }
+    .questionnaire__about-name{
+        font-size: 16px;
+    }
+    .about__text {
+        font-size: 14px;
+    }
+    .about .title {
+        margin-bottom: 16px;
+        text-align: center;
+        margin-left: 0;
+    }
+    .subtitle {
+        margin-bottom: 16px;
+        text-align: justify;
+    }
+    .about__wide {
+        width: auto;
+    }
+    .about__wrapper{
+        padding: 0px;
+    }
+    .about__left-info .about__text {
+        line-height: 14px;
+    }
+    .subtitle {
+         margin-left: 0px !important; 
+    }
+    .range .title {
+        margin-left: 0px;
+        text-align: center;
+    }
+}

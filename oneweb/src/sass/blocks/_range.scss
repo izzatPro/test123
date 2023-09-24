@@ -1,0 +1,43 @@
+.range{
+    .title{
+        margin-bottom: 19px;
+        padding-top: 1px;
+    }
+    // .subtitle{
+    //     margin-bottom: 12px;
+    // }
+    input[type="range"]{
+        width: 1160px;
+        height: 2px;
+        appearance: none;
+        background-image: url('../img/line_bg/lineBG.jpg');
+        outline:none;
+        margin-top: 21px;
+    
+    }
+    .img_collection{
+        display: flex;
+        max-width: 1060px;
+        margin-top: -15px;
+        margin-left: 33px;
+    }
+    .img_collection img{
+        display: inline-block;
+        margin-right: 257px;
+    }
+    input[type="range"]::-webkit-slider-thumb{
+       width: 24px;
+       height:23px;
+       border:none;
+       background: transparent;
+       background-image: url("../icons/JS_level_1/triangle.png");
+       background-repeat: no-repeat;
+       appearance: none;
+       margin-bottom: 44px;
+       margin-left: -30px;
+    }
+    .img_collection .level_1_passive, .img_collection .level_2_active, .img_collection .level_3_active, .img_collection .level_4_active{
+        display: none ;
+    }
+    
+}

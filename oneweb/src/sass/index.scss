@@ -1,0 +1,35 @@
+@import 'libs/font';
+@import 'base/variables';
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+html {
+    font-family: 'Gilroy', sans-serif;
+    font-size: 16px;
+    font-size: 400;
+    color: $main-color;
+}
+
+body{
+    padding: 140px 280px;
+    background: #0000005c;
+}
+
+.container {
+    height: 3000px;
+    margin: 0 auto;
+    padding: 60px 0 0 100px;
+    background: #F9F6F4;
+    border: 1px solid  black;
+}
+
+@import 'blocks/title';
+@import 'blocks/header';
+@import 'blocks/questionnaire';
+@import 'blocks/checkboxItem';
+@import 'blocks/about';
+@import 'blocks/range';
+@import 'blocks/media';
